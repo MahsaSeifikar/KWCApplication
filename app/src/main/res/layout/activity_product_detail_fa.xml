@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbarHeight"
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/toolbarIcon"
+            android:text="home"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/home"
+            android:id="@+id/toolbarLeftIcon"/>
+
+        <TextView
+            android:id="@+id/back_product_detail"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="&#xf053;"
+            android:layout_alignBaseline="@+id/toolbarLeftIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeLarge"
+            android:textColor="@color/kwc_red"
+            />
+
+        <TextView
+            android:id="@+id/titlenews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/News_EN"
+            android:layout_toRightOf="@+id/back_product_detail"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeLarge"
+            />
+    </RelativeLayout>
+
+    <View
+
+        android:id="@+id/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/textSizeMedium"
+        android:background="@color/kwc_red" />
+
+    <ScrollView
+        android:id="@+id/scrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/datilImageView1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/pic_product_detail_height"
+                android:adjustViewBounds="true"
+
+                android:minHeight="@dimen/minPicHeight"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:focusable="true">
+            <requestFocus />
+
+        </ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="right"
+                >
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:textColor="@color/kwc_red"
+                    android:layout_margin="@dimen/marginSmall"
+                    android:textSize="@dimen/textSizeMedium"
+
+                    />
+                <TextView
+                    android:id="@+id/codemahsol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/codemahsol_FA"
+                    android:layout_margin="@dimen/marginSmall"
+                    android:textSize="@dimen/textSizeMedium"
+                    android:layout_gravity="right"
+
+                    />
+                <TextView
+                    android:id="@+id/codemahsolTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/marginSmall"
+                    android:textSize="@dimen/textSizeMedium"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="right"
+
+                    />
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price_FA"
+                    android:layout_margin="@dimen/marginSmall"
+                    android:textSize="@dimen/textSizeMedium"
+                    android:layout_gravity="right"
+
+                    />
+                <TextView
+                    android:id="@+id/priceTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/marginSmall"
+                    android:textSize="@dimen/textSizeMedium"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="right"
+
+                    />
+
+            <TextView
+                android:id="@+id/tozihat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tozihat_FA"
+                android:layout_margin="@dimen/marginSmall"
+                android:textSize="@dimen/textSizeMedium"
+                android:layout_gravity="right"
+
+                />
+            <TextView
+                android:id="@+id/tozihatTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/marginSmall"
+                android:textSize="@dimen/textSizeMedium"
+                android:textColor="@android:color/black"
+                android:layout_gravity="right"
+
+                />
+
+            <TextView
+                android:id="@+id/rangbandi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ranbandi_FA"
+                android:layout_margin="@dimen/marginSmall"
+                android:textSize="@dimen/textSizeMedium"
+                android:layout_gravity="right"
+
+                />
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/colors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="5"
+                android:layout_margin="@dimen/marginSmall"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

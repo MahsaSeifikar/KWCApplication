@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbarHeight"
+                >
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/toolbarIcon"
+                    android:text="home"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/home"
+                    android:id="@+id/toolbarLeftIcon"/>
+
+                <TextView
+                    android:id="@+id/back"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="&#xf053;"
+                    android:layout_alignBaseline="@+id/toolbarLeftIcon"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textSizeLarge"
+                    android:textColor="@color/kwc_red"
+                    />
+
+                <TextView
+                    android:id="@+id/projectSpecificarion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/project_EN"
+                    android:textColor="@android:color/black"
+                    android:layout_toRightOf="@+id/back"
+                    android:layout_centerVertical="true"
+                    android:textSize="@dimen/textSizeLarge"
+                    />
+            </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/kwc_red"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/mainLinearLayout">
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/pic_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginMedium"
+        android:layout_gravity="center"
+
+        android:foregroundGravity="center"
+        >
+
+    </ListView>
+
+
+    <TextView
+        android:id="@+id/titleproject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="icon"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/marginMedium"
+        android:textSize="@dimen/textSizeMedium"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent" >#00FFFFFF</color>
+
+
+    <color name="kwc_gray_glass_background" >#22787878</color>
+    <color name="kwc_black">#000000</color>
+    <color name="kwc_gray_background" >#FEFEFE</color>
+    <color name="kwc_gray_item">#78787878</color>
+    <color name="kwc_red" >#EF2E2E</color>
+    <color name="kwc_green">#D2F0D2</color>
+    <color name="kwc_green_dark">#569165</color>
+
+</resources>

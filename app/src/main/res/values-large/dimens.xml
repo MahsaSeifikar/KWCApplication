@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="pic_product_detail_height">480dp</dimen>
+
+    <dimen name="pic_detail_width">500dp</dimen>
+    <dimen name="pic_detail_height">550dp</dimen>
+
+    <dimen name="splash_kwcimage_width">400dp</dimen>
+    <dimen name="splash_margin_button_left">100dp</dimen>
+    <dimen name="splash_text_size_button">18dp</dimen>
+
+    <dimen name="toolbarHeight">83dp</dimen>
+    <dimen name="toolbarIcon">34dp</dimen>
+    <dimen name="threeline_height">50dp</dimen>
+
+    <dimen name="textSizeXSmall">10sp</dimen>
+    <dimen name="textSizeMSmall">13sp</dimen>
+    <dimen name="textSizeSmall">16sp</dimen>
+    <dimen name="textSizeMedium">18sp</dimen>
+    <dimen name="textSizeLarge">20sp</dimen>
+    <dimen name="textSizeXLarge">28sp</dimen>
+    <dimen name="textSizeXXLarge">36sp</dimen>
+
+    <dimen name="image_color_height">50dp</dimen>
+
+
+    <dimen name="marginXSmall">4dp</dimen>
+    <dimen name="marginSmall">8dp</dimen>
+    <dimen name="marginMedium">16dp</dimen>
+    <dimen name="marginLarge">20dp</dimen>
+
+    <dimen name="projectitem_ll_width">270dp</dimen>
+    <dimen name="projectitem_text_height">75dp</dimen>
+    <dimen name="projectitem_image_height">340dp</dimen>
+
+    <dimen name="item_news_image_size">200dp</dimen>
+
+    <dimen name="accesori_size_text">23dp</dimen>
+    <dimen name="accesori_margin">30dp</dimen>
+
+
+    <dimen name="order_width_button">200dp</dimen>
+    <dimen name="login_width_button">300dp</dimen>
+    <dimen name="weight_edit_makeorder">120dp</dimen>
+
+</resources>

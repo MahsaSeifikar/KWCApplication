@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:layout_margin="@dimen/marginSmall"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="right"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/shopNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/kwc_red"
+                android:layout_margin="@dimen/marginSmall"
+                android:textSize="@dimen/textSizeMedium"
+                android:layout_gravity="center"
+
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/shahrTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSizeMedium"
+            android:textColor="@android:color/black"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_margin="@dimen/marginSmall"
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right"
+            >
+            <TextView
+                android:id="@+id/TelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/marginSmall"
+                android:textSize="@dimen/textSizeMedium"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Tel_FA"
+                android:layout_margin="@dimen/marginSmall"
+                android:textSize="@dimen/textSizeMedium"
+                android:layout_gravity="center"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right"
+            >
+            <TextView
+                android:id="@+id/mobileTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/marginSmall"
+                android:textSize="@dimen/textSizeMedium"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Mobile_FA"
+                android:layout_margin="@dimen/marginSmall"
+                android:textSize="@dimen/textSizeMedium"
+                android:layout_gravity="center"
+
+                />
+
+        </LinearLayout>
+
+
+        <View
+
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/textSizeMedium"
+            android:background="@color/kwc_gray_item" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSizeMedium"
+        android:layout_margin="@dimen/marginSmall"
+        android:layout_gravity="right|center_vertical"
+        />
+    <!--
+    <ImageView
+        android:id="@+id/aftersaleItemImageView"
+        android:layout_width="@dimen/item_news_image_size"
+        android:layout_height="@dimen/item_news_image_size"
+        android:scaleType="centerCrop"
+        android:layout_gravity="right"
+        android:adjustViewBounds="true"
+        android:layout_margin="@dimen/marginSmall"
+        >
+
+    </ImageView>
+-->
+</LinearLayout>

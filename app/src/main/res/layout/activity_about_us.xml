@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <ImageView
+                android:id="@+id/aboutUsImageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:minHeight="@dimen/minPicHeight"
+                android:layout_marginTop="@dimen/marginSmall"/>
+            <TextView
+                android:id="@+id/aboutUsTextViewTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/kwc_red"
+                android:textSize="@dimen/textSizeLarge"
+                android:layout_marginRight="@dimen/marginMedium"
+                android:layout_marginLeft="@dimen/marginMedium"
+                android:layout_marginTop="@dimen/marginMedium"/>
+
+            <TextView
+                android:id="@+id/aboutUsTextViewDesc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textSizeMedium"
+                android:layout_marginRight="@dimen/marginMedium"
+                android:layout_marginLeft="@dimen/marginMedium"
+                android:layout_marginTop="@dimen/marginSmall"/>
+
+            <ImageView
+                android:id="@+id/aboutUsImageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:minHeight="@dimen/minPicHeight"
+                android:layout_marginTop="@dimen/marginMedium"/>
+
+                <TextView
+                    android:id="@+id/aboutUsTextViewTitle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/kwc_red"
+                    android:textSize="@dimen/textSizeLarge"
+                    android:layout_marginRight="@dimen/marginMedium"
+                    android:layout_marginLeft="@dimen/marginMedium"
+                    android:layout_marginTop="@dimen/marginMedium"/>
+
+            <TextView
+                android:id="@+id/aboutUsTextViewDesc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/textSizeMedium"
+                android:layout_marginRight="@dimen/marginMedium"
+                android:layout_marginLeft="@dimen/marginMedium"
+                android:layout_marginTop="@dimen/marginSmall"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

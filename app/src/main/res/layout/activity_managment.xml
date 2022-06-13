@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbarHeight"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rrtoolbar"
+            android:layout_width="@dimen/toolbarIcon"
+            android:layout_marginRight="@dimen/marginMedium"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="@dimen/toolbarIcon"
+                android:layout_height="@dimen/toolbarIcon"
+                android:layout_centerInParent="true"
+                android:textColor="@color/float_transparent"
+                android:background="@drawable/shop"
+                android:id="@+id/toolbarLeftIcon"
+                />
+
+            <TextView
+                android:id="@+id/textNumOrder"
+                android:layout_width="@dimen/toolbarIcon"
+                android:layout_height="match_parent"
+                android:text=""
+                android:layout_marginTop="@dimen/marginSmall"
+                android:gravity="center|top"
+                android:textColor="@color/kwc_black"
+                />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="&#xf053;"
+            android:layout_alignBaseline="@+id/rrtoolbar"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeLarge"
+            android:textColor="@color/kwc_red"
+            />
+
+        <TextView
+            android:id="@+id/titleImake_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/News_EN"
+            android:layout_toRightOf="@+id/back"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeLarge"
+            />
+    </RelativeLayout>
+
+    <View
+
+        android:id="@+id/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/textSizeMedium"
+        android:background="@color/kwc_red" />
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <Button
+        android:id="@+id/make_order"
+        android:layout_width="@dimen/order_width_button"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_border"
+        android:gravity="center"
+        android:textSize="@dimen/textSizeMedium"
+        android:text="@string/make_order_fa"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="50dp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_below="@+id/make_order"
+
+        android:layout_marginTop="50dp"
+        android:id="@+id/list_order"
+        android:layout_width="@dimen/order_width_button"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_border"
+        android:gravity="center"
+        android:textSize="@dimen/textSizeMedium"
+        android:text="@string/old_list_order_fa"
+        android:layout_centerHorizontal= "true"
+        android:textColor="@android:color/black"
+        />
+</RelativeLayout>
+    </LinearLayout>

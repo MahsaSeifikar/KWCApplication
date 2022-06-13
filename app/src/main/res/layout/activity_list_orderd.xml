@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbarHeight"
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/toolbarIcon"
+            android:text="home"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/home"
+            android:id="@+id/toolbarLeftIcon"/>
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="&#xf053;"
+            android:layout_alignBaseline="@+id/toolbarLeftIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeLarge"
+            android:textColor="@color/kwc_red"
+            />
+
+        <TextView
+            android:id="@+id/titleImake_order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/News_EN"
+            android:layout_toRightOf="@+id/back"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeLarge"
+            />
+    </RelativeLayout>
+
+
+    <View
+
+        android:id="@+id/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/textSizeMedium"
+        android:background="@color/kwc_red" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+        <TableLayout
+                android:id="@+id/orderList_table"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/marginSmall"
+                android:layout_margin="@dimen/marginXSmall"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+        </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+        <TextView
+            android:id="@+id/listOrderd_textview"
+            android:layout_margin="@dimen/marginMedium"
+            android:textSize="@dimen/textSizeMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            >
+        <Button
+
+            android:layout_weight="1"
+            android:id="@+id/sendlistOrderbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSizeMedium"
+            android:background="@drawable/red_button_background"
+            android:textColor="@color/sweet_dialog_bg_color"
+            android:text="@string/send_order_fa"
+            android:gravity="center"
+            android:layout_margin="@dimen/marginXSmall"
+            android:padding="@dimen/marginXSmall"
+            />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/reOrderButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSizeMedium"
+            android:background="@drawable/red_button_background"
+            android:textColor="@color/sweet_dialog_bg_color"
+            android:text="@string/re_order_fa"
+            android:gravity="center"
+            android:layout_margin="@dimen/marginXSmall"
+            android:padding="@dimen/marginSmall"
+            />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

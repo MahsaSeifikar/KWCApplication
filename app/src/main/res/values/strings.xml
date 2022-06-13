@@ -1,0 +1,588 @@
+<resources>
+    <string name="app_name">KWC IRAN</string>
+
+    <string name="project_EN">Projects</string>
+    <string name="project_FA">پروژه ها</string>
+
+    <string name="News_EN">News and Events</string>
+    <string name="News_FA">اخبار و رویدادها</string>
+
+    <string name="download_EN">Download File</string>
+    <string name="download_Fa">دریافت فایل</string>
+
+
+    <string name="Newletter_EN">Newsletter</string>
+    <string name="Newletter_Fa">ماهنامه</string>
+
+    <string name="About_us_EN">About Us</string>
+    <string name="About_us_FA">درباره ما</string>
+
+    <string name="Award_EN">Awards</string>
+    <string name="Award_FA">جوایز</string>
+
+    <string name="Certificate_EN">Certificates</string>
+    <string name="Certificate_FA">گواهینامه ها</string>
+
+    <string name="Philosophy_EN">Philosophy</string>
+    <string name="Philosophy_FA">فلسفه</string>
+
+    <string name="ContactUs_EN">Contact Us</string>
+    <string name="ContactUs_FA">ارتباط با ما</string>
+
+    <string name="Language_FA">زبان</string>
+    <string name="Language_EN">Language</string>
+
+    <string name="notselect">&#x25EF;</string>
+    <string name="select">&#x25CF;</string>
+
+    <string name="username_FA">نام کاربری</string>
+    <string name="username_EN">Username</string>
+    <string name="password_FA">کلمه عبور</string>
+    <string name="password_EN">Password</string>
+
+    <string name="login_EN">Login</string>
+    <string name="login_FA">ورود</string>
+
+
+    <string name="SaleNetwork_EN">Sales Network</string>
+    <string name="SaleNetwork_FA">مراکز فروش</string>
+
+    <string name="afterSale_EN">After Sales Service</string>
+    <string name="afterSale_FA">خدمات پس از فروش</string>
+
+    <string name="Ostan_EN">State</string>
+    <string name="Ostan_FA">استان</string>
+
+    <string name="Address_EN">Address:</string>
+    <string name="Address_FA">آدرس:</string>
+
+    <string name="Tel_EN">Tel:</string>
+    <string name="Tel_FA">تلفن:</string>
+
+    <string name="Mobile_EN">Mobile:</string>
+    <string name="Mobile_FA">موبایل:</string>
+
+
+    <string name="MultiColor_EN">Multi Color</string>
+    <string name="MultiColor_FA">شیرهای رنگی</string>
+
+    <string name="Concealed_EN">Concealed</string>
+    <string name="Concealed_FA">شیرهای توکار</string>
+
+    <string name="Kitchen_EN">Kitchen</string>
+    <string name="Kitchen_FA">آشپزخانه</string>
+
+    <string name="Bathroom_EN">Bathroom</string>
+    <string name="Bathroom_FA">حمام و دستشویی</string>
+
+    <string name="Intelligent_EN">Intelligent</string>
+    <string name="Intelligent_FA">شیرهای هوشمند</string>
+
+    <string name="accessories_kwc_EN">Accessories KWC</string>
+    <string name="accessories_kwc_FA">محصولات جانبی | KWC</string>
+
+    <string name="accessories_franke_EN">Accessories Franke</string>
+    <string name="accessories_franke_FA">محصولات جانبی | Franke</string>
+
+    <string name="accessories_oli_EN">Accessories Oli</string>
+    <string name="accessories_oli_FA">محصولات جانبی | Oli</string>
+
+    <string name="accessories_Geesa_EN">Accessories Geesa</string>
+    <string name="accessories_Geesa_FA">محصولات جانبی | Geesa</string>
+
+    <string name="accessories_Ideal_Standard_EN">Accessories Ideal Standard</string>
+    <string name="accessories_Ideal_Standard_FA">محصولات جانبی | Ideal Standard</string>
+
+    <string name="codemahsol_FA">کد محصول:</string>
+    <string name="codemahsol_EN">Product code:</string>
+    <string name="price_FA">قیمت محصول:</string>
+    <string name="price_EN">Product price:</string>
+    <string name="tozihat_FA">توضیحات:</string>
+    <string name="tozihat_EN">Description</string>
+
+    <string name="ranbandi_FA">رنگبندی	</string>
+    <string name="ranbandi_EN">Finishes</string>
+
+
+    <string name="accessori_FA">محصولات جانبی</string>
+    <string name="accessori_EN">Accessories</string>
+
+    <string-array name="accessoriEn">
+
+        <item>@string/accessories_kwc_EN</item>
+        <item>@string/accessories_franke_EN</item>
+        <item>@string/accessories_oli_EN</item>
+        <item>@string/accessories_Geesa_EN</item>
+        <item>@string/accessories_Ideal_Standard_EN</item>
+
+    </string-array>
+
+    <string-array name="accessoriFA">
+        <item>@string/accessories_kwc_FA</item>
+        <item>@string/accessories_franke_FA</item>
+        <item>@string/accessories_oli_FA</item>
+        <item>@string/accessories_Geesa_FA</item>
+        <item>@string/accessories_Ideal_Standard_FA</item>
+
+    </string-array>
+
+    <!-- side bar menu -->
+    <string-array name="sideBarItemTitlesEn">
+
+        <item>Company</item>
+        <item>Product</item>
+        <item>Projects</item>
+        <item>Sales Network</item>
+        <item>After Sales Service</item>
+        <item>News and Events</item>
+        <item>Newsletter</item>
+        <item>Contact Us</item>
+        <item>Log In</item>
+    </string-array>
+
+    <string-array name="sideBarItemTitlesFA">
+        <item>شرکت</item>
+        <item>محصولات</item>
+        <item>پروژه ها</item>
+        <item>مراکز فروش</item>
+        <item>خدمات پس از فروش</item>
+        <item>اخبار و رویداد ها</item>
+        <item>ماهنامه</item>
+        <item>ارتباط با ما</item>
+        <item>ورود</item>
+
+    </string-array>
+
+    <string-array name="sideBarItemIcons">
+        <item>&#x0062;</item>
+        <item>&#x0063;</item>
+        <item>&#x0064;</item>
+        <item>&#x006A;</item>
+        <item>&#x0069;</item>
+        <item>&#x0066;</item>
+        <item>&#x0067;</item>
+        <item>&#x0065;</item>
+        <item>&#x0068;</item>
+
+    </string-array>
+
+
+    <!-- side bar menu COMPANY CLICKED -->
+    <string-array name="sideBarItemTitlesCompanyEn">
+        <item>Company</item>
+        <item>  About Us</item>
+        <item>  Philosophy</item>
+        <item>  Awards</item>
+        <item>  Certificates</item>
+        <item>Product</item>
+        <item>Projects</item>
+        <item>Sales Network</item>
+        <item>After Sales Service</item>
+
+        <item>News and Events</item>
+        <item>Newsletter</item>
+        <item>Contact Us</item>
+        <item>Log In</item>
+
+    </string-array>
+
+    <string-array name="sideBarItemTitlesCompanyFA">
+        <item>شرکت</item>
+        <item>  درباره ما</item>
+        <item>  فلسفه</item>
+        <item>  جوایز</item>
+        <item>گواهینامه ها  </item>
+        <item>محصولات</item>
+        <item>پروژه ها</item>
+        <item>مراکز فروش</item>
+        <item>خدمات پس از فروش</item>
+        <item>اخبار و رویداد ها</item>
+        <item>ماهنامه</item>
+        <item>ارتباط با ما</item>
+        <item>ورود</item>
+
+    </string-array>
+
+    <string-array name="sideBarItemIconsCompayny">
+        <item>&#x0062;</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>&#x0063;</item>
+        <item>&#x0064;</item>
+        <item>&#x006A;</item>
+        <item>&#x0069;</item>
+        <item>&#x0066;</item>
+        <item>&#x0067;</item>
+        <item>&#x0065;</item>
+        <item>&#x0068;</item>
+    </string-array>
+
+    <!-- slide bar with product-->
+    <string-array name="sideBarItemTitlesProductCompanyEn">
+        <item>Company</item>
+        <item>  About Us</item>
+        <item>  Philosophy</item>
+        <item>  Awards</item>
+        <item>  Certificates</item>
+        <item>Product</item>
+        <item>  Kitchen</item>
+        <item>  Bathroom</item>
+        <item>  Intelligent</item>
+        <item>  Concealed</item>
+        <item>  Multi Color</item>
+        <item>  Accessories</item>
+        <item>Projects</item>
+        <item>Sales Network</item>
+        <item>After Sales Service</item>
+
+        <item>News and Events</item>
+        <item>Newsletter</item>
+        <item>Contact Us</item>
+        <item>Log In</item>
+
+    </string-array>
+
+    <string-array name="sideBarItemTitlesProductCompanyFA">
+        <item>شرکت</item>
+        <item>  درباره ما</item>
+        <item>  فلسفه</item>
+        <item>  جوایز</item>
+        <item>گواهینامه ها  </item>
+        <item>محصولات</item>
+        <item>  آشپزخانه</item>
+        <item>حمام و دستشویی  </item>
+        <item>شیرهای هوشمند  </item>
+        <item>شیرهای توکار  </item>
+        <item>شیرهای رنگی  </item>
+        <item>محصولات جانبی  </item>
+        <item>پروژه ها</item>
+
+        <item>مراکز فروش</item>
+        <item>خدمات پس از فروش</item>
+        <item>اخبار و رویداد ها</item>
+        <item>ماهنامه</item>
+        <item>ارتباط با ما</item>
+        <item>ورود</item>
+
+    </string-array>
+
+    <string-array name="sideBarItemIconsProductCompany">
+        <item>&#x0062;</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>&#x0063;</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>&#x0064;</item>
+        <item>&#x006A;</item>
+        <item>&#x0069;</item>
+        <item>&#x0066;</item>
+        <item>&#x0067;</item>
+        <item>&#x0065;</item>
+        <item>&#x0068;</item>
+
+    </string-array>
+
+    <!-- slide bar with product-->
+    <string-array name="sideBarItemTitlesProductEn">
+        <item>Company</item>
+        <item>Product</item>
+        <item>  Kitchen</item>
+        <item>  Bathroom</item>
+        <item>  Intelligent</item>
+        <item>  Concealed</item>
+        <item>  Multi Color</item>
+        <item>  Accessories</item>
+        <item>Projects</item>
+        <item>Sales Network</item>
+        <item>After Sales Service</item>
+        <item>News and Events</item>
+        <item>Newsletter</item>
+        <item>Contact Us</item>
+        <item>Log In</item>
+
+    </string-array>
+
+    <string-array name="sideBarItemTitlesProductFA">
+        <item>شرکت</item>
+        <item>محصولات</item>
+        <item>  آشپزخانه</item>
+        <item>حمام و دستشویی  </item>
+        <item>شیرهای هوشمند  </item>
+        <item>شیرهای توکار  </item>
+        <item>شیرهای رنگی  </item>
+        <item>محصولات جانبی  </item>
+        <item>پروژه ها</item>
+        <item>مراکز فروش</item>
+        <item>خدمات پس از فروش</item>
+        <item>اخبار و رویداد ها</item>
+        <item>ماهنامه</item>
+        <item>ارتباط با ما</item>
+        <item>ورود</item>
+    </string-array>
+
+    <string-array name="sideBarItemIconsProduct">
+        <item>&#x0062;</item>
+        <item>&#x0063;</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>&#x0064;</item>
+        <item>&#x006A;</item>
+        <item>&#x0069;</item>
+        <item>&#x0066;</item>
+        <item>&#x0067;</item>
+        <item>&#x0065;</item>
+        <item>&#x0068;</item>
+
+    </string-array>
+
+    <string name="arrayRight">&#xebca;</string>
+
+    <string-array name="homeItemsTitlesEn">
+        <item>Kitchen</item>
+        <item>Bathroom</item>
+        <item>Intelligent</item>
+        <item>Concealed</item>
+        <item>Multi Color</item>
+        <item>Accessories</item>
+    </string-array>
+
+    <string-array name="homeItemsTitlesFa">
+        <item>آشپزخانه</item>
+        <item>حمام و دستشویی</item>
+        <item>شیرهای هوشمند</item>
+        <item>شیرهای توکار</item>
+        <item>شیرهای رنگی</item>
+        <item>محصولات جانبی</item>
+    </string-array>
+
+
+    <!-- About Us -->
+    <string name="aboutUsTitle1EN">KWC Swiss</string>
+    <string name="aboutUsText1EN">KWC represents 140 years of expertise in water management. KWC faucets are a byword for first-class intelligence in the bathroom and kitchen. With sustainable technologies, exquisite quality and innovative design the leading Swiss faucet manufacturer has made a name for itself across the globe.
+KWC has belonged to the Franke Group since 2013 and is a brand of Franke Water Systems AG in Aarburg. Its head office and the production site are domiciled in Unterkulm, Switzerland. From here, KWC exports its quality faucets to over 50 countries across five continents
+    </string>
+
+    <string name="aboutUsTitle1FA">سوییس KWC</string>
+    <string name="aboutUsText1FA">تاریخجه KWC سوئیس از 140 سال پیش در کارخانه ای کوچک در شهری از سوئیس آغاز شده است این کارخانه در ابتدا تولید کننده جعبه های موسیقی بود و توسط آدلف کارر بنا شده پس از مرگ وی والتر لوگینبول اداره کارخانه را بعهده گرفت و تولید جعبه های موسیقی را متوقف و شروع به تولید شیرآلات کرد . KWC دارای خط تولید در کشورهای ایالات متحده آمریکا ، آلمان و ایتالیا می باشد در سال 2013 کمپانی مشهور سوئیسی به نام" فرانکه " ( Franke ) برند KWC را خرید و KWC زیر مجموعه ای از برند معروف Franke به حساب می آید . لازم به ذکر است که نامگذاری KWC به دنبال Karrer and Weber Co. بوده است که نمادی از نام بنیانگذاران این برند قوی سوئیسی می باشد .تا امروز تنها نماینده رسمی KWC در خاورمیانه ، شرکت شیرهای ساختمانی وصنعتی ایران ( KWC IRAN ) است . </string>
+    <string name="aboutUsImgUrl1">http://www.kwciran.com/adfiles/About/kwc-aboutus_5431981.jpg</string>
+    <string name="aboutUsTitle2EN">KWC Iran</string>
+    <string name="aboutUsText2EN">The importance of water consumption has always been a sensitive subject for either public or private organizations in Iran.The crisis of water consumption has led to the necessity of establishing a high-tech and high-quality faucet manufacturer who is able to produce economical , beautifully designed faucets for luxury kitchens and bathrooms within Iran .
+Consequently Iran sanitary and industrial valve company has started this mission under the license of the well – known Swiss company , KWC , in 1984 located in Saveh / Iran . KWC- Iran factory is facititated with high-tech casting,polishing machining,electroplating and mold making. It has benefited from KWC- Swiss technology and standards.
+KWC- Iran has dramatically improved the culture of water consumption among Iranians , especially in the recent years . Nowadays KWC-Iran has become one of the most well-known faucet manufacturers, under the license of KWC-Swiss , within Iran .
+    </string>
+    <string name="aboutUsTitle2FA">ایران KWC</string>
+    <string name="aboutUsText2FA">
+        اهمیت مصرف آب در کشور همواره یک وظیفه ملی و دغدغه های نهادهای دولتی و خصوصی بوده است . مصرف سرانه بالای کشور در مقایسه با مصرف اروپا هشدار دهنده می باشد . بحران الگوی مصرف آب ضرورت احداث کارخانه ای مجهز و با استاندارد های بالا قادر به تولید شیرهای کم مصرف با کیفیت و طراحی چشمگیر که استاندارد ملی را داشته باشد ایجاد کرد.لذا شرکت شیرهای ساختمانی وصنعتی ایران تحت لیسانس شرکت KWC سوئیس این مهم را بانجام رسانده و کارخانه را که مجهز به ریخته گری ماشینکاری ، پولیش ، آبکاری و قالب سازی می باشد با انتقال تکنولوژی از KWC و تحت لیسانس آن برند ، در سال 1363 در شهر صنعتی کاوه تاسیس و در سال 1380 به بهره برداری رسیدو محصولات خود را به بازار ایران و بین المللی عرضه می نماید این امر باعث ارتقاء استاندارد ملی شیرهای ساختمانی و همچنین ارتقاء فرهنگ مصرف آب در کشور گردیده است . امروزه KWC ایران به یکی از بزرگترین و معتبر ترین تولید کنندگان شیرآلات تحت لیسانس KWC سوئیس تبدیل شده است .
+شرکت کی دبلیوسی در حال حاضر تولید کننده شیرآلات ساختمانی ، شیرآلات بهداشتی ، شیرآلات چشمی ، شیرآلات توکار ، شیرآلات رنگی ،شیرآلات ترموستاتیک ، و شیرآلات الکترونیکی میباشد.
+    </string>
+
+    <string name="aboutUsImgUrl2">http://www.kwciran.com/adfiles/About/kwc-aboutus_4338315.jpg</string>
+
+
+    <string name="philosophyTitle1EN">Philosophy</string>
+    <string name="philosophyText1EN">"There is nothing more powerful than an idea whose time has come."\n
+Victor Hugo\n\n
+KWC-Iran mission is to encourage people to appreciate the water and increase the joy of water usage via beautifully designed , high – tech faucets , manufactured within Iran, while saving the environment.
+The result is saving the large amount of water and energy , which is beneficial for both mothernature and commonwealth . In addition , being under the license of KWC- Swiss , has ensured the end users with high quality materials and technology which are under authentication of the well-known Europan company.
+Every single products of KWC has its own unique design and it is able to create a modern , luxury atmosphere for kitchens and bathrooms . while KWC products are beautifully designed by famous European designers, they are approved by professional engineers and technicians at the same time.
+    </string>
+
+    <string name="philosophyTitle1FA">فلسفه</string>
+    <string name="philosophyText1FA">ماموریت KWC ایران ، تشویق مردم به قدردانی از نعمت آب و افزایش مسرت استفاده از شیرهای تولیدی شرکت در کنار به نمایش درآوردن ارزشهای یک محصول تولید داخل با استفاده از دانش فنی روز دنیا در هر دو موضوع شکل و طرح منطبق با احتیاج و زیبایی در طراحی ماندگار می باشد.
+به این ترتیب در محصولات حاصل از فرآیندهای فوق، امکان نصب قطعات و ملحقات با کیفیت بسیار بالا فراهم می آید و در نتیجه فواید عظیمی همچون صرفه جویی در منابع آب و انرژی برای ذینفعان و از دیدگان کلان برای اقتصاد کشور به بار خواهد آمد. افزون برآن با کنترل دقیق مواد مصرفی که از بهترین تامین کنندگان داخلی و خارجی تدارک می شود اطمینان حاصل می گردد که کیفیت محصولات تولیدی کاملا مطابق بر استانداردهای بین المللی مرتبط با محصول بوده و سلامت بهداشت مصرف کنندگان تضمین شده است.
+لذا به منظور بهره وری بیشتر از امکانات موجود و ارتقاء سطح کیفی پرسنل، آموزشهای لازم انجام گردیده است تا گامی در جهت رسیدن به بهبود مستمر باشد.
+هر یک از شیرالات KWC نشات گرفته از طراحی و خط فلزی خاص خود می باشد و قادر است فضای آشپزخانه و حمام و دستشوئی را به نحو چشمگیری زیبا سازد . محصولات KWC علاوه بر طراحی به روز و مدرن ، دارای کیفیت بالا و تکنولوژی به روی می باشد که از خلاقیت و نوآوری طراحان و مهندسین حرفه ای نشات گرفته شده است .
+شرکت کی دبلیوسی در حال حاضر تولید کننده شیرآلات ساختمانی ، شیرآلات بهداشتی ، شیرآلات چشمی ، شیرآلات توکار ، شیرآلات رنگی ،شیرآلات ترموستاتیک ، و شیرآلات الکترونیکی میباشد.
+</string>
+
+    <string name="philosophyImgUrl1">http://www.kwciran.com/adfiles/Philosophy/kwc-Philosophy_1897188.jpg</string>
+
+    <string-array name="awardsUrl">
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_4655972b.jpg</item>
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_7617841b.jpg</item>
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_9223462b.jpg</item>
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_6633140b.jpg</item>
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_1149377b.jpg</item>
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_4766713b.jpg</item>
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_2274205b.jpg</item>
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_4307839b.jpg</item>
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_9245963b.jpg</item>
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_4745425b.jpg</item>
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_6716703b.jpg</item>
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_7611785b.jpg</item>
+        <item>http://www.kwciran.com/adfiles/AWD/kwc-awards_6522985b.jpg</item>
+    </string-array>
+
+    <string-array name="awardstitle">
+        <item>غرفه برتر هفتمین نمایشگاه فن آوری های نوین صرفه جویی در مصرف آب
+17-20 آبان 1384</item>
+        <item>نخستین همایش حلقه های کنترل کیفیت و خلاقیت و نو آوری
+تابستان 91</item>
+        <item>برگزیده دریافت نشان کیفیت برتر در صنعت ساختمان
+5 تیر 1392</item>
+        <item>برگزیده در دومین دوره انتخاب مدیر موفق
+30 آبان 1390	</item>
+        <item>گرامیداشت روز ملی صنعت و معدن
+دهم تیر ماه سال 1392</item>
+        <item>جلاس روسای آیتک
+ششمین اجلاس مدیران و روسای شرکت های بزرگ تولیدی و خدماتی نمونه سراسرکشور.
+برگزیده اجلاس آیتک</item>
+        <item>واحد صنعتی نمونه سال 92	</item>
+        <item>کسب رتبه دهم در سومین جشنواره ده شرکت برتر صنعت ساختمان ایران	</item>
+        <item>کسب رتبه دهم در سومین جشنواره ده شرکت برتر صنعت ساختمان ایران	</item>
+        <item>	تقدیر نامه
+از طرف اتاق بازرگانی ،صنایع ،معادن و کشاورزی ایران</item>
+        <item>لوح تقدیر
+به مناسبت گرامیداشت روز صنعت و معدن
+دهم تیرماه 1392</item>
+        <item>
+ 	لوح تقدیر در مراسم انتخاب واحد ساعی استان در عرصه استانداردسازی در سال 1392	</item>
+        <item>لوح تقدیر در ششمین اجلاس مدیران و روسای شرکت های بزرگ تولیدی و خدماتی نمونه سراسر کشور</item>
+    </string-array>
+
+    <string-array name="certificateUrl">
+        <item>http://www.kwciran.com/adfiles/Certificates/kwc-Certificates_6423174.jpg</item>
+        <item>http://www.kwciran.com/adfiles/Certificates/kwc-Certificates_8296305.jpg</item>
+        <item>http://www.kwciran.com/adfiles/Certificates/kwc-Certificates_6666325.jpg</item>
+        <item>http://www.kwciran.com/adfiles/Certificates/kwc-Certificates_8153126.jpg</item>
+        <item>http://www.kwciran.com/adfiles/Certificates/kwc-Certificates_0182165.jpg</item>
+        <item>http://www.kwciran.com/adfiles/Certificates/kwc-Certificates_0196617.jpg</item>
+        <item>http://www.kwciran.com/adfiles/Certificates/kwc-Certificates_8996523.jpg</item>
+        <item>http://www.kwciran.com/adfiles/Certificates/kwc-Certificates_5732167.jpg</item>
+        <item>http://www.kwciran.com/adfiles/Certificates/kwc-Certificates_7240231.jpg</item>
+        <item></item>
+
+    </string-array>
+
+    <string name="phone">&#xf095;</string>
+    <string name="home">&#xf015;</string>
+    <string name="fax">&#xf1ac;</string>
+    <string name="mail">&#xf0e0;</string>
+
+    <string name="errorEn">ERROR</string>
+    <string name="okEn" >OK</string>
+    <string name="errorConnectNetEN">Error Connecting To Network</string>
+    <string name="errorConnectionEN">Error Connection</string>
+    <string name="loadingEn">LOADING</string>
+    <string name="error401En">ERROR 401</string>
+    <string name="error404EN">ERROR 404</string>
+    <string name="error500EN">ERROR 500</string>
+
+
+    <string name="errorConnectNetFA">خطای اتصال به شبکه</string>
+    <string name="errorConnectionFA">خطای شبکه</string>
+    <string name="loadingFA">بارگذاری</string>
+    <string name="error401FA">خطای 401</string>
+    <string name="error404FA">خطای 404</string>
+    <string name="error500FA">خطای 500</string>
+    <string name="errorFA">خطا</string>
+    <string name="okFA" >پذیرش</string>
+
+    <string name="gear">&#xf013;</string>
+    <string name="circle">&#xf111;</string>
+    <string name="det">&#xf057;</string>
+
+    <string name="choose_ostan_textview_fa">لطفا استان مورد نظر خود را انتخاب کنید.</string>
+    <string name="choose_ostan_textview_en">Please select your state</string>
+
+
+
+    <string name="log_in_message_fa">لطفا نام کاربری و رمز ورود خود را وارد نمایید</string>
+    <string name="user_name_fa">نام کاربری</string>
+    <string name="pass_word_fa">رمز عبور</string>
+    <string name="enter_fa">ورود</string>
+    <string name="forgot_fa">فراموشی رمز عبور</string>
+    <string name="signup_fa">ثبت نام</string>
+
+
+    <string name="log_in_message_en">Please enter your username and password.</string>
+    <string name="user_name_en">Username</string>
+    <string name="pass_word_en">Password</string>
+    <string name="enter_en">Log In</string>
+    <string name="forgot_en">Forgot password or username?</string>
+    <string name="signup_en">Sign up</string>
+
+    <string name="make_order_fa">ایجاد سفارش</string>
+    <string name="old_list_order_fa">سفارشات گذشته</string>
+    <string name="list_order_fa">لیست سفارش</string>
+
+    <string name="update_fa">بروزرسانی نرم افزار</string>
+    <string name="callPoshtiban_fa">تماس با پشتیبان نرم افزار</string>
+    <string name="version_fa">نسخه نرم افزار</string>
+    <string name="logout_fa">خروج از حساب کاربری</string>
+
+    <string name="update_en">Update Application</string>
+    <string name="callPoshtiban_en">تماس با پشتیبان نرم افزار</string>
+    <string name="version_en">Application Version</string>
+    <string name="logout_en">Log Out</string>
+
+    <string name="question_fa">آبا میخواهید خارج شوید؟</string>
+    <string name="no_fa">خیر</string>
+    <string name="yes_fa">بله</string>
+
+
+    <string name="question_en">Do you want to log out?</string>
+    <string name="no_en">No</string>
+    <string name="yes_en">Yes</string>
+
+    <string name="categori_fa">طبقه بندی</string>
+    <string name="product_group_fa">گروه محصول </string>
+    <string name="product_title_fa">عنوان محصول</string>
+    <string name="product_number_fa">تعداد</string>
+    <string name="product_price">قیمت هرعدد( ریال )</string>
+    <string name="enter_categori">لطفا طبقه محصول را انتخاب کنید.</string>
+    <string name="enter_product_group">لطفا گروه محصول را انتخاب کنید.</string>
+    <string name="enter_product_title">لطفا نام محصول خود را انتخاب کنید.</string>
+    <string name="add_list_fa">اضافه به لیست</string>
+
+    <string-array name="categori_makeorder_fa">
+        <item>@string/enter_categori</item>
+        <item>@string/Bathroom_FA</item>
+        <item>@string/Concealed_FA</item>
+        <item>@string/Intelligent_FA</item>
+        <item>@string/Kitchen_FA</item>
+        <item>@string/MultiColor_FA</item>
+    </string-array>
+    <string-array name="categori_makeorder_en">
+        <item></item>
+        <item>bathroom</item>
+        <item>concealed</item>
+        <item>intelligent</item>
+        <item>kitchen</item>
+        <item>multi_color</item>
+    </string-array>
+
+
+    <string-array name="empty_makeorder">
+        <item>                </item>
+    </string-array>
+
+    <string name="name_pruduct_fa">نام محصول</string>
+    <string name="price_one_fa">قیمت واحد به ریال</string>
+    <string name="price_totali_fa">قیمت کل</string>
+    <string name="sumation">مجموع:</string>
+    <string name="send_order_fa">ارسال سفارش</string>
+    <string name="re_order_fa">سفارش مجدد</string>
+    <string name="message_order">سفارش شما با موفقیت ذخیره و جهت بررسی و صدور پیش فاکتور ارسال گردید</string>
+    <string name="factor_number_textview">شماره سفارش شما:</string>
+    <string name="return_button">بازگشت</string>
+
+    <string name="more_info_fa">اطلاعات بیشتر</string>
+    <string name="more_info_en">more</string>
+
+    <string name="text_listorderd">هیچ سفارشی ثبت نشده است.</string>
+</resources>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splashActivityLinear"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="20dp"
+        >
+        <Button
+            android:id="@+id/fa_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/language_button"
+            android:text="EN"
+            android:textSize="@dimen/splash_text_size_button"
+            android:layout_marginLeft="@dimen/splash_margin_button_left"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/sweet_dialog_bg_color"
+            ></Button>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="@dimen/splash_kwcimage_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+
+        android:id="@+id/imageView"
+        android:src="@drawable/main_icon"/>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.atrin.kwc">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/main_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:theme"
+        >
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".AboutUsActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".PhilosophyActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".AwardsActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".CertificatesActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ProjectActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".NewsActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".NewsDetailActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ContactActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ProjectPictureActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".SettingActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".SaleNetworkActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".AfterSalesActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".NewLetterActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".PruductCategotyActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ProductListActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ProductDetailActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".AccessoriActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".LogInActivity"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+        <activity android:name=".OrderManagment"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".MakeOrderActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".AwardDetailActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".ListOrderdActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+    </application>
+
+</manifest>

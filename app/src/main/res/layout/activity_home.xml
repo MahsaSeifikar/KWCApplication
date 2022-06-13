@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="7.4"
+        android:paddingRight="@dimen/marginMedium"
+        android:paddingLeft="@dimen/marginMedium">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"/>
+        <LinearLayout
+            android:id="@+id/homeActivityKitchenLinear"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:background="@drawable/background_edittext_login_normal"
+            android:padding="@dimen/marginSmall"
+            android:gravity="center_vertical|right">
+
+            <ImageView
+                android:id="@+id/homeActivityKitchenImageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/homeActivityKitchenTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.4"
+                android:textSize="@dimen/textSizeLarge"
+                android:textColor="@color/kwc_gray_background"
+                android:paddingLeft="@dimen/marginSmall" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"/>
+        <LinearLayout
+            android:id="@+id/homeActivityBathroomLinear"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:gravity="center_vertical|right"
+            android:background="@drawable/background_edittext_login_normal"
+            android:padding="@dimen/marginSmall">
+
+            <ImageView
+                android:id="@+id/homeActivityBathroomImageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/homeActivityBathroomTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.4"
+                android:textSize="@dimen/textSizeLarge"
+                android:textColor="@color/kwc_gray_background"
+                android:paddingLeft="@dimen/marginSmall"/>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"/>
+        <LinearLayout
+            android:id="@+id/homeActivityIntelligentLinear"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center_vertical|right"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:background="@drawable/background_edittext_login_normal"
+            android:padding="@dimen/marginSmall">
+
+            <ImageView
+                android:id="@+id/homeActivityIntelligentImageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/homeActivityIntelligentTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.4"
+                android:textSize="@dimen/textSizeLarge"
+                android:textColor="@color/kwc_gray_background"
+                android:paddingLeft="@dimen/marginSmall"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"/>
+        <LinearLayout
+            android:id="@+id/homeActivityConcealedLinear"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:gravity="center_vertical|right"
+            android:background="@drawable/background_edittext_login_normal"
+            android:padding="@dimen/marginSmall">
+
+            <ImageView
+                android:id="@+id/homeActivityConcealedImageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/homeActivityConcealedTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.4"
+                android:textSize="@dimen/textSizeLarge"
+                android:textColor="@color/kwc_gray_background"
+                android:paddingLeft="@dimen/marginSmall"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"/>
+        <LinearLayout
+            android:id="@+id/homeActivityMultiColorLinear"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical|right"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:background="@drawable/background_edittext_login_normal"
+            android:padding="@dimen/marginSmall">
+
+            <ImageView
+                android:id="@+id/homeActivityMultiColorImageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/homeActivityMultiColorTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.4"
+                android:textSize="@dimen/textSizeLarge"
+                android:textColor="@color/kwc_gray_background"
+                android:paddingLeft="@dimen/marginSmall"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"/>
+
+        <LinearLayout
+            android:id="@+id/homeActivityAccessoriesLinear"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="4"
+            android:gravity="center_vertical|right"
+            android:background="@drawable/background_edittext_login_normal"
+            android:padding="@dimen/marginSmall">
+
+            <ImageView
+                android:id="@+id/homeActivityAccessoriesImageView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/homeActivityAccessoriesTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.4"
+                android:textSize="@dimen/textSizeLarge"
+                android:textColor="@color/kwc_gray_background"
+                android:paddingLeft="@dimen/marginSmall"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:gravity="right"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_weight="0.7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_margin="@dimen/marginSmall"
+        android:gravity="right">
+        <TextView
+            android:id="@+id/dateItemTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/kwc_red"
+            android:layout_margin="@dimen/marginSmall"
+            android:gravity="right"
+            android:textSize="@dimen/textSizeSmall"
+            />
+        <TextView
+            android:id="@+id/titleItemTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textSizeSmall"
+            android:textColor="@android:color/black"
+            android:layout_margin="@dimen/marginSmall"
+            android:layout_gravity="right"
+
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginSmall"
+            android:id="@+id/lldownload"
+            android:layout_gravity="right"
+            android:background="@color/kwc_green"
+            >
+            <TextView
+                android:id="@+id/download_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="&#xf019;"
+                android:padding="5dp"
+                android:textColor="@color/kwc_green_dark"
+                />
+            <Button
+                android:id="@+id/download_newsletter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/download_EN"
+                android:textSize="@dimen/textSizeSmall"
+                android:textColor="@color/kwc_green_dark"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="@color/kwc_green"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/newsItemImageView"
+        android:layout_weight="0.3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_margin="@dimen/marginSmall"
+        >
+
+    </ImageView>
+<!--item_news_image_size-->
+</LinearLayout>

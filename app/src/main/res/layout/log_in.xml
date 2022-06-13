@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:isScrollContainer="false"
+        >
+    <LinearLayout
+        android:id="@+id/log_in_layout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+
+    android:orientation="vertical"
+    >
+        <TextView
+            android:id="@+id/log_in_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/marginMedium"
+            android:text="@string/log_in_message_fa"
+            android:textSize="@dimen/textSizeMedium"
+            android:layout_marginBottom="@dimen/marginMedium"
+            />
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="@dimen/login_width_button"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/log_in_message"
+            android:layout_marginTop="@dimen/marginMedium"
+            android:textSize="@dimen/textSizeMedium"
+            android:gravity="center"
+            style="@style/EditText"
+
+            android:layout_centerHorizontal="true"
+            android:hint="@string/user_name_fa"
+            android:textColorHint="@color/kwc_gray_item"
+            android:focusable="true"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/kwc_red"
+            android:singleLine="true"
+            />
+        <EditText
+            android:id="@+id/pass_word"
+            android:layout_width="@dimen/login_width_button"
+            android:hint="@string/pass_word_fa"
+            android:textColorHint="@color/kwc_gray_item"
+            style="@style/EditText"
+            android:singleLine="true"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_name"
+            android:layout_marginTop="@dimen/marginSmall"
+            android:textSize="@dimen/textSizeMedium"
+            android:layout_centerHorizontal="true"
+            android:password="true"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/kwc_red"
+            android:layout_marginBottom="@dimen/marginMedium"
+            />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="@dimen/login_width_button"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_fa"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/button_text_color"
+        android:textSize="@dimen/textSizeMedium"
+        android:background="@drawable/red_button_background"
+        android:gravity="center"
+        />
+        <TextView
+            android:id="@+id/forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            android:padding="@dimen/marginSmall"
+            android:gravity="center"
+            android:layout_below="@+id/pass_word"
+
+            android:layout_marginTop="@dimen/marginXSmall"
+            android:text="@string/forgot_fa"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/textSizeSmall"
+            />
+
+        <TextView
+
+            android:id="@+id/sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_dark"
+            android:padding="@dimen/marginSmall"
+            android:layout_below="@id/forgot"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/marginXSmall"
+            android:text="@string/signup_fa"
+            android:textSize="@dimen/textSizeSmall"
+            />
+</LinearLayout>
+<!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="bottom"
+            android:layout_height="match_parent">
+    -->
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

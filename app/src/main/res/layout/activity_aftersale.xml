@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/choose_ostan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/marginSmall"
+        android:textSize="@dimen/textSizeMedium"
+        android:textColor="@color/material_blue_grey_95"
+        android:text="@string/choose_ostan_textview_en"
+        />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rect"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:id="@+id/ostan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginXSmall"
+            android:layout_gravity="center"
+            android:text="@string/Ostan_FA"
+            android:textSize="@dimen/textSizeMedium"
+            android:padding="@dimen/marginXSmall"
+
+            android:textColor="@android:color/background_light"
+            />
+        <Spinner
+            android:layout_gravity="center"
+            android:id="@+id/list_ostan"
+            android:layout_width="wrap_content"
+            android:layout_margin="@dimen/marginXSmall"
+            android:padding="@dimen/marginSmall"
+            android:background="@drawable/spinner_rect"
+            android:gravity="center"
+            android:foregroundGravity="center"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list_froshgah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0dp"        >
+
+    </ListView>
+</LinearLayout>

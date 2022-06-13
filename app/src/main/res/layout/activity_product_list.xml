@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbarHeight"
+        >
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/toolbarIcon"
+            android:text="home"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/home"
+            android:id="@+id/toolbarLeftIcon"/>
+
+        <TextView
+            android:id="@+id/back_product_list"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="&#xf053;"
+            android:layout_alignBaseline="@+id/toolbarLeftIcon"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeLarge"
+            android:textColor="@color/kwc_red"
+            />
+
+        <TextView
+            android:id="@+id/titlenews"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/News_EN"
+            android:layout_toRightOf="@+id/back_product_list"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/textSizeLarge"
+            />
+    </RelativeLayout>
+
+
+    <View
+
+        android:id="@+id/line2"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:textSize="@dimen/textSizeMedium"
+        android:background="@color/kwc_red" />
+
+
+    <GridView
+        android:layout_margin="@dimen/marginMedium"
+        android:id="@+id/projectsGridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="columnWidth"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:numColumns="2"/>
+
+</LinearLayout>

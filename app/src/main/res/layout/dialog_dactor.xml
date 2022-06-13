@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:gravity="center"
+    android:layout_margin="@dimen/marginSmall"
+    >
+
+    <TextView
+        android:id="@+id/message_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/marginMedium"
+        android:textColor="@android:color/black"
+        android:text="@string/message_order"
+        android:gravity="center"
+        android:layout_margin="@dimen/marginSmall"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        android:gravity="center"
+        android:layout_margin="@dimen/marginSmall"
+        >
+
+        <TextView
+            android:id="@+id/factor_number_message_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/marginMedium"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:layout_margin="@dimen/marginSmall"
+            />
+
+        <TextView
+            android:id="@+id/factor_message_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/marginMedium"
+            android:textColor="@android:color/black"
+            android:text="@string/factor_number_textview"
+            android:gravity="center"
+            android:layout_margin="@dimen/marginSmall"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/retun_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/marginMedium"
+        android:textColor="@android:color/black"
+        android:text="@string/return_button"
+        android:gravity="center"
+        android:layout_margin="@dimen/marginSmall"
+        />
+</LinearLayout>

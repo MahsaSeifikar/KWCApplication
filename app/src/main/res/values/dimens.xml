@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="linearPadding">16dp</dimen>
+
+    <dimen name="navdrawer_width">250dp</dimen>
+
+    <dimen name="pic_product_detail_height">250dp</dimen>
+
+    <dimen name="pic_detail_width">300dp</dimen>
+    <dimen name="pic_detail_height">350dp</dimen>
+
+    <dimen name="marginXSmall">3dp</dimen>
+    <dimen name="marginSmall">6dp</dimen>
+    <dimen name="marginMedium">14dp</dimen>
+    <dimen name="marginLarge">18dp</dimen>
+
+    <dimen name="toolbarIcon">32dp</dimen>
+    <dimen name="toolbarHeight">75dp</dimen>
+    <dimen name="threeline_height">45dp</dimen>
+
+    <dimen name="navMarginTop">78dp</dimen>
+
+    <dimen name="textSizeXSmall">9sp</dimen>
+    <dimen name="textSizeMSmall">10sp</dimen>
+    <dimen name="textSizeSmall">12sp</dimen>
+    <dimen name="textSizeMedium">16sp</dimen>
+    <dimen name="textSizeLarge">18sp</dimen>
+    <dimen name="textSizeXLarge">28sp</dimen>
+    <dimen name="textSizeXXLarge">36sp</dimen>
+
+    <dimen name="splash_kwcimage_width">280dp</dimen>
+    <dimen name="splash_margin_button_left">500dp</dimen>
+    <dimen name="splash_text_size_button">15dp</dimen>
+
+    <dimen name="minPicHeight">150dp</dimen>
+
+    <dimen name="projectitem_ll_width">110dp</dimen>
+    <dimen name="projectitem_text_height">30dp</dimen>
+    <dimen name="projectitem_image_height">170dp</dimen>
+
+    <dimen name="item_news_image_size">150dp</dimen>
+
+    <dimen name="accesori_size_text">18dp</dimen>
+    <dimen name="accesori_margin">10dp</dimen>
+
+    <dimen name="order_width_button">150dp</dimen>
+    <dimen name="login_width_button">200dp</dimen>
+
+    <dimen name="weight_edit_makeorder">80dp</dimen>
+
+</resources>
